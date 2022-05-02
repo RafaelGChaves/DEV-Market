@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="./devinlist.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <script src="./devinlist.js" defer></script>
+
+    <link rel="icon" href="./carrinho-de-compras.png" />
+
+    <title>Dev in List</title>
+</head>
+
+<body id="body">
+
+    <header>
+        <button id="mode-selector"> Dark Mode </button>
+        <h1 id="titulo">Mercadinho</h1>
+        <img id="logo" src="./logoDevInHouse.png" alt="">
+    </header>
+    <form>
+        <div>
+            <div class="insert-container">
+                <h2 class="inserir">Inserir itens na lista:</h2>
+                <input type="text" class="input-list" placeholder="insira o produto">
+                <button class="insert-button" type="submit"> inserir
+            </div>
+            </button>
+            <section class="box-filters">
+                <button class="all-itens"></button>
+                <button class="pending"></button>
+                <button class="buyed"></button>
+            </section>
+        </div>
+    </form>
+
+
+
+    <div class="list-container">
+        <div class="list-background">
+            <h2>Lista de compras</h2>
+            <ul class="product-list"></ul>
+        </div>
+
+        <div class="container-valor">
+            <div class="box-valor">Total:</div>
+            <h2>R$ 0,00</h2>
+            <div class="box-itens">Itens:</div>
+            <h2>0</h2>
+        </div>
+    </div>
+</body>
+
+</html>
